@@ -1,5 +1,4 @@
-let nc = +prompt("Ingrese por favor el número de su cita: ");
-
+const NC = +prompt("Ingrese por favor el número de su cita: ");
 let cc;
 let tot = 0;
 
