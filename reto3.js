@@ -2,7 +2,7 @@ const NC = +prompt("Ingrese por favor el número de su cita: ");
 let cc;
 let tot = 0;
 
-for (i = 0; i < nc; i++) {
+for (i = 0; i < NC; i++) {
     if (i <= 2) { cc = 200; tot += 200; }
     if (i > 2 && i <= 4) { cc = 150; tot += 150; }
     if (i > 4 && i <= 7) { cc = 100; tot += 100; }
